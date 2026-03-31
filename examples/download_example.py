@@ -7,13 +7,14 @@ Example script for downloading using the TartanAir dataset toolbox.
 
 # General imports.
 import sys
+import os
 
 # Local imports.
-sys.path.append('..')
+sys.path.insert(0, '..')
 import tartanair as ta
 
 # Create a TartanAir object.
-tartanair_data_root = '/my/path/to/root/folder/for/tartanair-v2'
+tartanair_data_root = 'datasets/Tartanair-V2'
 
 ta.init(tartanair_data_root)
 

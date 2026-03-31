@@ -1,0 +1,10 @@
+# Config specifying which trajectories to download from the remote.
+
+  # env: ['SoulCity', 'Office', 'Gascola']
+  env: ['SoulCity']
+  difficulty: ['easy']
+  modality: ['image', 'depth'] 
+  camera_name: ['lcam_front']
+  unzip: True
+  delete_zip: True
+  num_workers: 4
